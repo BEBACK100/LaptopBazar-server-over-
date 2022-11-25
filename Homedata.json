@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "icon": "hp",
+        "name": "All hp model Laptop",
+        "bgClass": "bg-gradient-to-r from-primary to-secondary",
+        "description": "You will get a Laptop in your minimum budget or you can sell your old laptop"
+    },
+    {
+        "id": 2,
+        "icon": "dell",
+        "name": "All dell model Laptop",
+        "bgClass": "bg-accent",
+        "description": "You will get a Laptop in your minimum budget or you can sell your old laptop"
+    },
+    {
+        "id": 3,
+        "icon": "asus",
+        "name": "All Asus model Laptop",
+        "bgClass": "bg-gradient-to-r from-primary to-secondary",
+        "description": "You will get a Laptop in your minimum budget or you can sell your old laptop"
+    }
+]

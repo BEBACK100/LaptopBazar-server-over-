@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "hp",
+        "location": "Dhaka,sadorGat",
+        "Image": "https://www.hpexclusive.com.bd/image/cache/catalog/laptop/15s-du1117tu/15s-du1117tu-001-228x228.jpg",
+        "price": 15000,
+        "host": "Roni",
+        "rating": "15",
+        "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! "
+    },
+    {
+        "id": 2,
+        "title": "hp",
+        "location": "Dhaka,Banani",
+        "Image": "https://www.tct.com.bd/wp-content/uploads/2021/03/15-dy1091WM-5.jpeg",
+        "price": 15000,
+        "host": "Roni",
+        "rating": "15",
+        "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! "
+    },
+    {
+        "id": 3,
+        "title": "hp",
+        "location": "Dhaka,Mirpur",
+        "Image": "https://rosetech.com.bd/wp-content/uploads/2021/08/hp-15s-4-500x500-1-1.jpg",
+        "price": 15000,
+        "host": "Roni",
+        "rating": "15",
+        "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! "
+    },
+    {
+        "id": 4,
+        "title": "hp",
+        "location": "Barisal,Sadar",
+        "Image": "https://www.hpexclusive.com.bd/image/cache/catalog/laptop/15s-eq3334au/hp-15s-spruce-blue-02-500x500-228x228.jpg",
+        "price": 15000,
+        "host": "Roni",
+        "rating": "15",
+        "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! "
+    },
+    {
+        "id": 5,
+        "title": "hp",
+        "location": "Rangpur",
+        "Image": "https://www.notebookcheck.net/fileadmin/Notebooks/HP/15s-fq1556ng/HP_15s_fq_teaser.png",
+        "price": 15000,
+        "host": "Roni",
+        "rating": "15",
+        "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! pend my time in Fishing "
+    },
+    {
+        "id": 6,
+        "title": "hp",
+        "location": "Dhaka,Newmarket",
+        "Image": "https://www.91-cdn.com/hub/wp-content/uploads/2020/08/HP-14s-feat.jpg",
+        "price": 15000,
+        "host": "Roni",
+        "rating": "15",
+        "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! ne i spend my time in facebooking"
+    }
+]
