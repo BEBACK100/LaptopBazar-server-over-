@@ -4,6 +4,7 @@
         "icon": "hp",
         "name": "All hp model Laptop",
         "bgClass": "bg-gradient-to-r from-primary to-secondary",
+        "img": "https://ibb.co/0QKcmGv",
         "description": "You will get a Laptop in your minimum budget or you can sell your old laptop"
     },
     {
@@ -11,6 +12,7 @@
         "icon": "dell",
         "name": "All dell model Laptop",
         "bgClass": "bg-accent",
+        "img": "https://ibb.co/56XLtrL",
         "description": "You will get a Laptop in your minimum budget or you can sell your old laptop"
     },
     {
@@ -18,6 +20,7 @@
         "icon": "asus",
         "name": "All Asus model Laptop",
         "bgClass": "bg-gradient-to-r from-primary to-secondary",
+        "img": "https://ibb.co/1fPC9ZL",
         "description": "You will get a Laptop in your minimum budget or you can sell your old laptop"
     }
 ]
