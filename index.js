@@ -22,13 +22,35 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         const laptopCollection = client.db('oldLaptopbaze').collection('alldata')
+        const bookingCollection = client.db('oldLaptopbaze').collection('bookings')
+        const userCollection = client.db('oldLaptopbaze').collection('users')
 
         app.get('/alldata', async (req, res) => {
-
+            const model = req.query.model;
             const query = {};
             const data = await laptopCollection.find(query).toArray();
+
             res.send(data)
         })
+
+
+
+        app.get('/bookings', async (req, res) => {
+            const email = req.query.email;
+            const query = { email: email };
+            const bookings = await bookingCollection.find(query).toArray();
+            res.send(bookings)
+
+        })
+
+        app.post('/users', async (req, res) => {
+            const user = req.body;
+            const result = await userCollection.insertOne(user);
+            res.send(result)
+        })
+
+
+
 
     }
     finally {

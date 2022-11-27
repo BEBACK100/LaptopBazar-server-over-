@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "title": "hp",
         "model": "hpA001",
         "location": "Dhaka,sadorGat",
@@ -14,7 +13,6 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! "
     },
     {
-        "id": 2,
         "title": "hp",
         "model": "hpA002",
         "location": "Dhaka,Banani",
@@ -28,7 +26,6 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! "
     },
     {
-        "id": 3,
         "title": "hp",
         "model": "hpA003",
         "location": "Dhaka,Mirpur",
@@ -42,7 +39,6 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! "
     },
     {
-        "id": 4,
         "title": "hp",
         "model": "hpA004",
         "location": "Barisal,Sadar",
@@ -56,7 +52,6 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! "
     },
     {
-        "id": 5,
         "title": "hp",
         "model": "hpA005",
         "location": "Rangpur",
@@ -70,7 +65,6 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! pend my time in Fishing "
     },
     {
-        "id": 6,
         "title": "hp",
         "model": "hpA006",
         "location": "Dhaka,Newmarket",
@@ -84,7 +78,6 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! ne i spend my time in facebooking"
     },
     {
-        "id": 7,
         "title": "Dell",
         "model": "Dell.A001",
         "location": "Rangpur",
@@ -98,13 +91,12 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! pend my time in Fishing "
     },
     {
-        "id": 8,
         "title": "Dell",
         "model": "Dell.A002",
         "location": "Rangpur",
         "Image": "https://thumbs.dreamstime.com/b/laptop-computer-displaying-logo-dell-poznan-pol-jan-american-multinational-technology-company-develops-sells-repairs-172271225.jpg",
-        "Resale-price": 15000,
-        "OrginalPrice": 42000,
+        "Resaleprice": 15000,
+        "orginalPrice": 42000,
         "Used": 2,
         "host": "Roni",
         "rating": "15",
@@ -112,7 +104,6 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! pend my time in Fishing "
     },
     {
-        "id": 9,
         "title": "Asus",
         "model": "Asus..A001",
         "location": "Rangpur",
@@ -126,7 +117,6 @@
         "descripation": "Select from a wide range of Laptops & Accessories at Official HP Online store! Explore affordable range of HP laptops. Built for Multi-tasking & productivity. Shop Now! pend my time in Fishing "
     },
     {
-        "id": 10,
         "title": "Asus",
         "model": "Asus..A002",
         "location": "Rangpur",
