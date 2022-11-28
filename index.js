@@ -53,6 +53,13 @@ async function run() {
             res.send(data)
         })
 
+        app.get('/users', async (req, res) => {
+            const user = req.query.user;
+            const query = {};
+            const data = await usersCollection.find(query).toArray();
+            res.send(data)
+        })
+
         app.post('/users', async (req, res) => {
             const user = req.body;
             console.log(user);
