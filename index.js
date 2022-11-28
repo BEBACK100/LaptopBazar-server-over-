@@ -78,7 +78,7 @@ async function run() {
         app.get('/bookings', async (req, res) => {
             const email = req.query.email;
             console.log('Token', req.headers.authorization);
-            // const decodedEmail = req.decoded.email;
+            const decodedEmail = req.decoded.email;
             // if (email !== decodedEmail) {
             //     return res.status(403).send({ message: 'your access is forbiden' });
             // }
