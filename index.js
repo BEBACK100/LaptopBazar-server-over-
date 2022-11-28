@@ -16,18 +16,18 @@ function verifyJWT(req, res, next) {
 
     const authHeader = req.headers.authorization
     if (!authHeader) {
-        return res.send(401).send('You can not access here')
+        return res.status(401).send('You can not access here')
     }
 
     const token = authHeader.split('')[1]
-    jwt.verify(token, process.env.ACCESS_TOKEN, function (err, decoded) {
-        if (err) {
-            return res.status(403).send({ message: 'forbiden access' })
+    // jwt.verify(token, process.env.ACCESS_TOKEN, function (err, decoded) {
+    //     if (err) {
+    //         return res.status(403).send({ message: 'forbiden access' })
 
-        }
-        req.decoded = decoded;
-        next();
-    })
+    //     }
+    //     req.decoded = decoded;
+    //     next();
+    // })
 }
 
 
@@ -60,6 +60,7 @@ async function run() {
             res.send(result);
         })
 
+
         app.post('/bookings', async (req, res) => {
             const booking = req.body;
             const result = await bookingCollection.insertOne(booking);
@@ -67,8 +68,13 @@ async function run() {
         })
 
 
-        app.get('/bookings', verifyJWT, async (req, res) => {
+        app.get('/bookings', async (req, res) => {
             const email = req.query.email;
+            console.log('Token', req.headers.authorization);
+            // const decodedEmail = req.decoded.email;
+            // if (email !== decodedEmail) {
+            //     return res.status(403).send({ message: 'your access is forbiden' });
+            // }
             const query = { email: email };
             const bookings = await bookingCollection.find(query).toArray();
             res.send(bookings)
@@ -85,11 +91,7 @@ async function run() {
             }
             res.status(403).send({ accessToken: '' })
 
-        })
-
-
-
-
+        });
 
     }
     finally {
