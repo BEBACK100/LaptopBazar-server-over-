@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId, ObjectID } = require('mongodb');
 const cors = require('cors');
 const app = express();
 const jwt = require('jsonwebtoken')
@@ -66,6 +66,19 @@ async function run() {
 
             res.send(data)
         })
+        //  temporary to update price field on laptop details options
+
+        // app.get('/addPrice', async (req, res) => {
+        //     const filter = {}
+        //     const options = { upsert: true }
+        //     const updatedDoc = {
+        //         $set: {
+        //             price: 14000
+        //         }
+        //     }
+        //     const result = await laptopCollection.updateMany(filter, updatedDoc, options);
+        //     res.send(result);
+        // })
 
         app.post('/users', async (req, res) => {
             const user = req.body;
@@ -93,7 +106,7 @@ async function run() {
             res.send({ isAdmin: user?.role === 'admin' });
         })
 
-        app.put('/users/admin/:id', verifyJWT, verifyAdmin, async (req, res) => {
+        app.put('/users/admin/:id', async (req, res) => {
 
 
             const id = req.params.id;
@@ -142,7 +155,7 @@ async function run() {
 
         });
 
-        app.post('/products', verifyJWT, verifyAdmin, async (req, res) => {
+        app.post('/products', async (req, res) => {
             const product = req.body
             const result = await productsCollection.insertOne(product);
             res.send(result)
@@ -160,6 +173,18 @@ async function run() {
             res.send(result)
         })
 
+        // app.get('/bookings/:id', async (req, res) => {
+        //     const id = req.params.id;
+        //     const query = { _id: ObjectId(id) }
+        //     const booking = await bookingCollection.findOne(query);
+        //     res.send(booking)
+        // })
+        app.get('/bookings/:id', async (req, res) => {
+            const id = req.params.id
+            const query = { _id: ObjectId(id) }
+            const booking = await bookingCollection.findOne(query)
+            res.send(booking)
+        })
     }
     finally {
 
